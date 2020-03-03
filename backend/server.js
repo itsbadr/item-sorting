@@ -41,7 +41,7 @@ app.get('/roles', (req, res) => {
 })
 
 app.post('/role', (req, res) => {
-    const guild = client.guilds.get("268597766652035072");
+    const guild = client.guilds.get("");
 
     const role = guild.roles.get(req.body.role.id)
 
